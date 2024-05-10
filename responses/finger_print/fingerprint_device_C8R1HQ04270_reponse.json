@@ -1,0 +1,96 @@
+{
+    "supportedObjects": [
+      {
+        "ObjectID": 22,
+        "ObjectName": "Flat Left Four Fingers"
+      },
+      {
+        "ObjectID": 23,
+        "ObjectName": "Flat Right Four Fingers"
+      },
+      {
+        "ObjectID": 21,
+        "ObjectName": "Flat Two Thumbs"
+      },
+      {
+        "ObjectID": 16,
+        "ObjectName": "Rolled Left Thumb"
+      },
+      {
+        "ObjectID": 17,
+        "ObjectName": "Rolled Left Index"
+      },
+      {
+        "ObjectID": 18,
+        "ObjectName": "Rolled Left Middle"
+      },
+      {
+        "ObjectID": 19,
+        "ObjectName": "Rolled Left Ring"
+      },
+      {
+        "ObjectID": 20,
+        "ObjectName": "Rolled Left Little"
+      },
+      {
+        "ObjectID": 11,
+        "ObjectName": "Rolled Right Thumb"
+      },
+      {
+        "ObjectID": 12,
+        "ObjectName": "Rolled Right Index"
+      },
+      {
+        "ObjectID": 13,
+        "ObjectName": "Rolled Right Middle"
+      },
+      {
+        "ObjectID": 14,
+        "ObjectName": "Rolled Right Ring"
+      },
+      {
+        "ObjectID": 15,
+        "ObjectName": "Rolled Right Little"
+      },
+      {
+        "ObjectID": 6,
+        "ObjectName": "Flat Left Thumb"
+      },
+      {
+        "ObjectID": 7,
+        "ObjectName": "Flat Left Index"
+      },
+      {
+        "ObjectID": 8,
+        "ObjectName": "Flat Left Middle"
+      },
+      {
+        "ObjectID": 9,
+        "ObjectName": "Flat Left Ring"
+      },
+      {
+        "ObjectID": 10,
+        "ObjectName": "Flat Left Little"
+      },
+      {
+        "ObjectID": 1,
+        "ObjectName": "Flat Right Thumb"
+      },
+      {
+        "ObjectID": 2,
+        "ObjectName": "Flat Right Index"
+      },
+      {
+        "ObjectID": 3,
+        "ObjectName": "Flat Right Middle"
+      },
+      {
+        "ObjectID": 4,
+        "ObjectName": "Flat Right Ring"
+      },
+      {
+        "ObjectID": 5,
+        "ObjectName": "Flat Right Little"
+      }
+    ]
+  }

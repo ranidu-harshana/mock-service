@@ -1,0 +1,16 @@
+{
+    "referenceNum": "12356789f",
+    "data": {
+      "rspText": "Transaction successful",
+      "amt": "1000",
+      "rspCode": "00",
+      "txnTime": "181431",
+      "ecrRef": "12356789f",
+      "transType": "sale",
+      "txnDate": "20240303",
+      "status": "A",
+      "invoiceNo": "50",
+      "terminalId": "93265997",
+      "pan": "41009501******47"
+    }
+}
