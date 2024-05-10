@@ -65,18 +65,18 @@ documentScannerApp.listen(8081, function () {
 	springAdmin("HO_DocumentScanner", 8081, documentScannerApp)
 	console.log('Document Scanner is listening on port 8081')
 });
-// Payment
-wireMeApp.listen(8082, function () {
-	springAdmin("HO_Wireme", 8082, wireMeApp)
-  	console.log('Wireme is listening on port 8082')
-});
-// Face capture
-faceCaptureApp.listen(8083, function () {
-	springAdmin("HO_FaceCaptureScanner", 8083, faceCaptureApp)
-  	console.log('Face capture is listening on port 8083')
-});
-// Fingerprint
-fingerprintApp.listen(8084, function () {
-	springAdmin("HO_FingerPrintScanner", 8084, fingerprintApp)
-  	console.log('Fingerprint is listening on port 8084')
-});
+// // Payment
+// wireMeApp.listen(8082, function () {
+// 	springAdmin("HO_Wireme", 8082, wireMeApp)
+//   	console.log('Wireme is listening on port 8082')
+// });
+// // Face capture
+// faceCaptureApp.listen(8083, function () {
+// 	springAdmin("HO_FaceCaptureScanner", 8083, faceCaptureApp)
+//   	console.log('Face capture is listening on port 8083')
+// });
+// // Fingerprint
+// fingerprintApp.listen(8084, function () {
+// 	springAdmin("HO_FingerPrintScanner", 8084, fingerprintApp)
+//   	console.log('Fingerprint is listening on port 8084')
+// });
