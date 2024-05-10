@@ -26,7 +26,7 @@ const springAdmin = (name, port, routeMid) => {
 	const options = {
 		config: {
 		  logFileAddr: '',
-		  ipAddr: '192.168.8.100',
+		  ipAddr: 'https://ms-23-1ff375b89415.herokuapp.com/',
 		  port: port
 		},
 	};
@@ -35,9 +35,9 @@ const springAdmin = (name, port, routeMid) => {
 
 	const postData = JSON.stringify({
 		name: name,
-		managementUrl: "http://192.168.8.100:" + port,
-		healthUrl: "http://192.168.8.100:" + port + "/actuator/health",
-		serviceUrl: "https://apidevinternal.onsys.com.au/api/v1/device-management-service/global/device-status/instances",
+		managementUrl: "",
+		healthUrl: "https://ms-23-1ff375b89415.herokuapp.com/actuator/health",
+		serviceUrl: "",
 		metadata: {
 			"preferIp": "true"
 		}
@@ -53,7 +53,7 @@ const springAdmin = (name, port, routeMid) => {
 			"branchId": "nnn",
 			"userId": "nnn",
 			"entityId": "!",
-			"Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI1bjZ0OWNFSG0td0syZHNmVmhOVWZWV2dNQVJDNWhNTlBXYnZtQWplU1dVIn0.eyJleHAiOjE3MTUzNjY2NjUsImlhdCI6MTcxNTM2NDg2NSwianRpIjoiZGU3N2FlOWMtNzZkMS00ZjM2LWJhOWQtYjA0ZjBiZmYxZDhhIiwiaXNzIjoiaHR0cHM6Ly8xMC4xMC4xLjE0Ojg0NDMvcmVhbG1zL2lkcC1yZWFsbS1kZXYiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMGE2NjQ0OTctM2I1Ni00ZmMwLTlmNjgtMzE4MTllM2E4MzFhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiaWRwLWFkbWluLWFwaXMiLCJzZXNzaW9uX3N0YXRlIjoiODFhMGM0MjYtOTcyYi00YzNiLTg3YWItODAxMTlkZjkzNTBkIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIvKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1pZHAtcmVhbG0tZGV2Iiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImlkcC1hZG1pbi1hcGlzIjp7InJvbGVzIjpbIm1hc3Rlci1hZG1pbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiODFhMGM0MjYtOTcyYi00YzNiLTg3YWItODAxMTlkZjkzNTBkIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiIxIERpc2FuYXlha2EiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzdXBlcnVzZXIiLCJnaXZlbl9uYW1lIjoiMSIsImZhbWlseV9uYW1lIjoiRGlzYW5heWFrYSIsImVtYWlsIjoiZW5pY3N1cGVydXNlckBvbnN5cy5jb20ifQ.HtNaJD4uLUl35QPXgBISh9bMyJ92eiChZ4D-0CkHxwpXAQi7CBUrTaSbyIyMULa7f78ayrNTI9mr6CcHbS4nRWK-8SoOOVfgD8y9ggkCHinBqlUgmfeFn95I7lEMFvQhw6s6ybB5CZAhxLP0qaKlLRJt-wexTA9T1mawNohPivd2wx2JvI8_WVk54p843SqEkVZhdwGwxfdB0p71CRH498awXnw_F6ljWJ4avx556o34Zz2imUZyqAWCKB_N5sCeaXxWVBFoNC3Sahz85QiWWcaqozOeNKahN7CNFqYHn4w0xSV7Q-8XfRqJMJMe0ukCQtaKrWEVZgoMjjEWUMBhMA"
+			"Authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI1bjZ0OWNFSG0td0syZHNmVmhOVWZWV2dNQVJDNWhNTlBXYnZtQWplU1dVIn0.eyJleHAiOjE3MTUzNzE2ODYsImlhdCI6MTcxNTM2OTg4NiwianRpIjoiMmRhZDdjZmQtMWNhZS00M2E3LWJmZWYtZTk4YjkwNzJkY2JhIiwiaXNzIjoiaHR0cHM6Ly8xMC4xMC4xLjE0Ojg0NDMvcmVhbG1zL2lkcC1yZWFsbS1kZXYiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiMGE2NjQ0OTctM2I1Ni00ZmMwLTlmNjgtMzE4MTllM2E4MzFhIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiaWRwLWFkbWluLWFwaXMiLCJzZXNzaW9uX3N0YXRlIjoiODk5M2Q3YjUtZjc0Yy00MzY4LTg3MGMtYWM2NjNmOGYzYzhlIiwiYWNyIjoiMSIsImFsbG93ZWQtb3JpZ2lucyI6WyIvKiJdLCJyZWFsbV9hY2Nlc3MiOnsicm9sZXMiOlsiZGVmYXVsdC1yb2xlcy1pZHAtcmVhbG0tZGV2Iiwib2ZmbGluZV9hY2Nlc3MiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7ImlkcC1hZG1pbi1hcGlzIjp7InJvbGVzIjpbIm1hc3Rlci1hZG1pbiJdfSwiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiODk5M2Q3YjUtZjc0Yy00MzY4LTg3MGMtYWM2NjNmOGYzYzhlIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5hbWUiOiIxIERpc2FuYXlha2EiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJzdXBlcnVzZXIiLCJnaXZlbl9uYW1lIjoiMSIsImZhbWlseV9uYW1lIjoiRGlzYW5heWFrYSIsImVtYWlsIjoiZW5pY3N1cGVydXNlckBvbnN5cy5jb20ifQ.QWIGLEuVYwjStSTgsF1sfspj7qMTUewsL3LNPMf-3nt6XzFLUqcQ16lOUg_vDLnSGHT8NImBD02Wd25D5iT4xLnS92b_5nogVQK16dXOHL4WJKC9InKESnyLp_-k6diXPQJ4yS11VdQfXsei-4JkLIMO7Aqi3GsITbm0JuA2nCU1zq7GePaR4izdmjw0tWtztqYAUbgkp5bl8c3awlilrErzzPlRCRtoWR1dx3mq5-sBjWuaknTMy4rt8Egk0npWpfrOGbYun5j59bj_e5kBGNirJL6dd6_j7_J8KP76rBsv6h7VU6qhPXkp3MQSmWRr4iyIb0jN8mCZ_tblI5y5TQ"
 		}
 		})
 	  .then((response) => response.json())
@@ -64,7 +64,7 @@ const port = process.env.PORT || 8081
 
 // Document scan
 documentScannerApp.listen(port, function () {
-	// springAdmin("HO_DocumentScanner", 8081, documentScannerApp)
+	springAdmin("HO_DocumentScanner", port, documentScannerApp)
 	console.log('Document Scanner is listening on port 8081')
 });
 // // Payment
