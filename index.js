@@ -60,8 +60,10 @@ const springAdmin = (name, port, routeMid) => {
 	  .then((json) => console.log(json));
 }
 
+const port = process.env.PORT || 8081
+
 // Document scan
-documentScannerApp.listen(8081, function () {
+documentScannerApp.listen(port, function () {
 	// springAdmin("HO_DocumentScanner", 8081, documentScannerApp)
 	console.log('Document Scanner is listening on port 8081')
 });
